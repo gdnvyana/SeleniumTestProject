@@ -1,7 +1,10 @@
+# Compiled files
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Kotlin
 .kotlin
 
 ### IntelliJ IDEA ###
@@ -12,6 +15,7 @@ target/
 *.iws
 *.iml
 *.ipr
+.idea/
 
 ### Eclipse ###
 .apt_generated
@@ -37,3 +41,20 @@ build/
 
 ### Mac OS ###
 .DS_Store
+.AppleDouble
+.LSOverride
+
+### Selenium specific ###
+test-output/
+logs/
+geckodriver.log
+chromedriver.log
+
+### Local configuration (DO NOT COMMIT!) ###
+src/main/resources/config/config.properties
+
+### Temporary files ###
+*.tmp
+*.swp
+*~
+*.log
