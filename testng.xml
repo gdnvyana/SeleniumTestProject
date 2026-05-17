@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Grid Test Suite" verbose="1">
+    <test name="Litecart Tests">
+        <classes>
+            <class name="com.litecart.selenide.tests.LitecartSelenideTest"/>
+        </classes>
+    </test>
+</suite>
